@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Circle Radius", "Circle Rad
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loop", "Loop\Loop.csproj", "{D422D720-D311-4166-8449-40ECAD56C990}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions and Errors", "Exceptions and Errors\Exceptions and Errors.csproj", "{52BB3788-3D2E-477B-90D8-0C5870D4A139}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptions and Errors", "Exceptions and Errors\Exceptions and Errors.csproj", "{52BB3788-3D2E-477B-90D8-0C5870D4A139}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regular Expressions", "Regular Expressions\Regular Expressions.csproj", "{B18BFE34-F7A3-41AC-A9ED-AA9675204B38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Regular Expressions", "Regular Expressions\Regular Expressions.csproj", "{B18BFE34-F7A3-41AC-A9ED-AA9675204B38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{256C7572-2A15-4C2D-AA99-942BCB059BBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B18BFE34-F7A3-41AC-A9ED-AA9675204B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B18BFE34-F7A3-41AC-A9ED-AA9675204B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B18BFE34-F7A3-41AC-A9ED-AA9675204B38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{256C7572-2A15-4C2D-AA99-942BCB059BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{256C7572-2A15-4C2D-AA99-942BCB059BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{256C7572-2A15-4C2D-AA99-942BCB059BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{256C7572-2A15-4C2D-AA99-942BCB059BBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
