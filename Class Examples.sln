@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strings", "Strings\Strings.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{90B98058-687D-4659-A3D4-99CCFFAD83D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{D0317207-FA47-4D0E-A3E7-7662F5CFB7C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\Collections.csproj", "{D0317207-FA47-4D0E-A3E7-7662F5CFB7C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data Structures", "Data Structures\Data Structures.csproj", "{EAD1CFA5-740B-4CCF-9865-E59FFE9F1899}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{D0317207-FA47-4D0E-A3E7-7662F5CFB7C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0317207-FA47-4D0E-A3E7-7662F5CFB7C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0317207-FA47-4D0E-A3E7-7662F5CFB7C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAD1CFA5-740B-4CCF-9865-E59FFE9F1899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD1CFA5-740B-4CCF-9865-E59FFE9F1899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD1CFA5-740B-4CCF-9865-E59FFE9F1899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD1CFA5-740B-4CCF-9865-E59FFE9F1899}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
