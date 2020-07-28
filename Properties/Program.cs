@@ -98,13 +98,18 @@ namespace Properties
 			Console.WriteLine($"There are {Employee.NumberOfEmployees/*or Employee.Employees.Count*/} employees.");
 			foreach (Employee emp in Employee.Employees)
 			{
-				Console.WriteLine(emp.Name);
+				Console.WriteLine(emp);
 			}
 		}
 
 		public static int GetEmployeeCount()
 		{
 			return Employee.Employees.Count;
+		}
+
+		public override string ToString()
+		{
+			return $"{Name}, {Department}, {Salary}";
 		}
 	}
 	class Program
