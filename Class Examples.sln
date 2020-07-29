@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract Classes", "Abstrac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerations", "Enumerations\Enumerations.csproj", "{23EB95ED-4368-4838-B47E-74D8D21A1000}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{692B6C23-41A9-4B9B-A948-1E463DD59B93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{23EB95ED-4368-4838-B47E-74D8D21A1000}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23EB95ED-4368-4838-B47E-74D8D21A1000}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23EB95ED-4368-4838-B47E-74D8D21A1000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692B6C23-41A9-4B9B-A948-1E463DD59B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692B6C23-41A9-4B9B-A948-1E463DD59B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692B6C23-41A9-4B9B-A948-1E463DD59B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692B6C23-41A9-4B9B-A948-1E463DD59B93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
