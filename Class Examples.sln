@@ -39,9 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathSystem", "MathSystem\Ma
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathSystem.Tests", "MathSystem.Tests\MathSystem.Tests.csproj", "{6E12030D-8511-4FD0-88D6-C1AF32D3B63E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roshambo", "Roshambo\Roshambo.csproj", "{026BA450-C29E-4047-A0CE-E9BCA58AFC5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roshambo", "Roshambo\Roshambo.csproj", "{026BA450-C29E-4047-A0CE-E9BCA58AFC5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roshambo.Test", "Roshambo.Test\Roshambo.Test.csproj", "{ABDC04D8-182B-40D6-8D03-EC8E0B66B192}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roshambo.Test", "Roshambo.Test\Roshambo.Test.csproj", "{ABDC04D8-182B-40D6-8D03-EC8E0B66B192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Letter Diamond", "Letter Diamond\Letter Diamond.csproj", "{7464BE8A-8ACC-4CF9-AEE2-56A303DA4CFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{ABDC04D8-182B-40D6-8D03-EC8E0B66B192}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABDC04D8-182B-40D6-8D03-EC8E0B66B192}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABDC04D8-182B-40D6-8D03-EC8E0B66B192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7464BE8A-8ACC-4CF9-AEE2-56A303DA4CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7464BE8A-8ACC-4CF9-AEE2-56A303DA4CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7464BE8A-8ACC-4CF9-AEE2-56A303DA4CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7464BE8A-8ACC-4CF9-AEE2-56A303DA4CFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
