@@ -31,5 +31,10 @@ namespace FirstWebApp.Controllers
 		{
 			return Content($"<h2>Hello and welcome to the world @ {DateTime.Now}</h2>");
 		}
+
+		public ActionResult GetTime()
+		{
+			return View();
+		}
 	}
 }
