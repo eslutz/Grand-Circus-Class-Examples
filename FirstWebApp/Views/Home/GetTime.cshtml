@@ -3,6 +3,6 @@
     ViewBag.Title = "GetTime";
 }
 
-<h2>GetTime</h2>
+<h2>@ViewBag.Title</h2>
 
-<p>The time is</p>
+<p>The time is @DateTime.Now.ToShortTimeString()</p>
