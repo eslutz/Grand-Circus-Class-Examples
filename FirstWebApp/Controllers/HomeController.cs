@@ -37,8 +37,9 @@ namespace FirstWebApp.Controllers
 			return View();
 		}
 
-		public ActionResult ThankYou()
+		public ActionResult ThankYou(string firstname, string lastname)
 		{
+			ViewBag.Welcome = $"Welcome, {firstname} {lastname}!";
 			return View();
 		}
 	}
