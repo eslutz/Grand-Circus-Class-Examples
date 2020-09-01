@@ -43,7 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roshambo", "Roshambo\Rosham
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roshambo.Test", "Roshambo.Test\Roshambo.Test.csproj", "{ABDC04D8-182B-40D6-8D03-EC8E0B66B192}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Letter Diamond", "Letter Diamond\Letter Diamond.csproj", "{7464BE8A-8ACC-4CF9-AEE2-56A303DA4CFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Letter Diamond", "Letter Diamond\Letter Diamond.csproj", "{7464BE8A-8ACC-4CF9-AEE2-56A303DA4CFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstWebApp", "FirstWebApp\FirstWebApp.csproj", "{56648741-8A87-4CF2-A619-518A0FCA832C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{7464BE8A-8ACC-4CF9-AEE2-56A303DA4CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7464BE8A-8ACC-4CF9-AEE2-56A303DA4CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7464BE8A-8ACC-4CF9-AEE2-56A303DA4CFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56648741-8A87-4CF2-A619-518A0FCA832C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56648741-8A87-4CF2-A619-518A0FCA832C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56648741-8A87-4CF2-A619-518A0FCA832C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56648741-8A87-4CF2-A619-518A0FCA832C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
