@@ -36,5 +36,10 @@ namespace FirstWebApp.Controllers
 		{
 			return View();
 		}
+
+		public ActionResult ThankYou()
+		{
+			return View();
+		}
 	}
 }
