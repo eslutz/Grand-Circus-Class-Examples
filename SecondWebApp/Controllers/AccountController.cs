@@ -17,5 +17,11 @@ namespace SecondWebApp.Controllers
 		{
 			return View();
 		}
+
+		[HttpGet]
+		public IActionResult MyProfile()
+		{
+			return View();
+		}
 	}
 }

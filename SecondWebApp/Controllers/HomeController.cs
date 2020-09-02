@@ -45,5 +45,10 @@ namespace SecondWebApp.Controllers
 			ViewBag.List = myList;
 			return View();
 		}
+
+		public IActionResult Test()
+		{
+			return Content("This is a test!");
+		}
 	}
 }
