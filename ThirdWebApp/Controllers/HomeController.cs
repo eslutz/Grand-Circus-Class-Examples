@@ -25,7 +25,7 @@ namespace ThirdWebApp.Controllers
 		{
 			WebUser user = new WebUser() { Username = username, Email = email, Password = password };
 
-			return View();
+			return View(user);
 		}
 	}
 }
