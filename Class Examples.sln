@@ -47,6 +47,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Letter Diamond", "Letter Di
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstWebApp", "FirstWebApp\FirstWebApp.csproj", "{56648741-8A87-4CF2-A619-518A0FCA832C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondWebApp", "SecondWebApp\SecondWebApp.csproj", "{3F026005-BA4A-4E74-BDA4-66A08BF7EC07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{56648741-8A87-4CF2-A619-518A0FCA832C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56648741-8A87-4CF2-A619-518A0FCA832C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56648741-8A87-4CF2-A619-518A0FCA832C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F026005-BA4A-4E74-BDA4-66A08BF7EC07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F026005-BA4A-4E74-BDA4-66A08BF7EC07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F026005-BA4A-4E74-BDA4-66A08BF7EC07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F026005-BA4A-4E74-BDA4-66A08BF7EC07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

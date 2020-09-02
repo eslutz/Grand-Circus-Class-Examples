@@ -1,0 +1,14 @@
+﻿@{
+	ViewBag.Title = "Demo";
+	string introText = "<strong>This is the way.</strong>";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@Html.Raw(introText)<br />
+@foreach (string name in ViewBag.List)
+{
+	<h5>Next Item:</h5>
+	<h6>@name</h6>
+	<br />
+}
