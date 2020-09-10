@@ -51,7 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecondWebApp", "SecondWebAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdWebApp", "ThirdWebApp\ThirdWebApp.csproj", "{010B3B38-A207-4725-A788-55F5C000F1AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourthWebApp", "FourthWebApp\FourthWebApp.csproj", "{9082CF47-B22D-42BD-AA24-206F395A7216}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FourthWebApp", "FourthWebApp\FourthWebApp.csproj", "{9082CF47-B22D-42BD-AA24-206F395A7216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperConsole", "DapperConsole\DapperConsole.csproj", "{73C5D9B9-A831-446C-A54A-A6143A1A8CFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{9082CF47-B22D-42BD-AA24-206F395A7216}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9082CF47-B22D-42BD-AA24-206F395A7216}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9082CF47-B22D-42BD-AA24-206F395A7216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C5D9B9-A831-446C-A54A-A6143A1A8CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C5D9B9-A831-446C-A54A-A6143A1A8CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C5D9B9-A831-446C-A54A-A6143A1A8CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C5D9B9-A831-446C-A54A-A6143A1A8CFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
