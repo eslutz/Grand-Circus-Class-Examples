@@ -18,6 +18,7 @@ namespace DapperConsole
 		{
 			//IDbConnection database = new SqlConnection("Server=BCKW433\\SQLEXPRESS;Database=Northwind;user id=TestUser;password=password");
 			IDbConnection database = new SqlConnection("Server=BCKW433\\SQLEXPRESS;Database=Northwind;Trusted_Connection=Yes");
+			
 			database.Open();
 
 			List<Categories> cats = database.Query<Categories>("select * from Categories").AsList<Categories>();
