@@ -60,7 +60,7 @@ namespace PetStore.Models
 		public static void Delete(long id)
 		{
 			IDbConnection db = new SqlConnection("Server=BCKW433\\SQLEXPRESS;Database=PetStore;user id=TestUser;password=password");
-			db.Delete(new Product() { ID = -id });
+			db.Delete(new Product() { ID = id });
 		}
 	}
 }
