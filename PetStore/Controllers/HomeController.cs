@@ -20,7 +20,9 @@ namespace PetStore.Controllers
 
 		public IActionResult Index()
 		{
-			return View();
+			Product.Delete(5);
+			List<Product> prods = Product.Read();
+			return Content(prods.Count.ToString());
 		}
 
 		public IActionResult Privacy()
