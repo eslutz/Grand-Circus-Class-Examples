@@ -23,6 +23,18 @@ namespace Wonderland.Controllers
 			return View();
 		}
 
+		public IActionResult Blog(long id)
+		{
+			Blog1 blog = Blog1.Read(id);
+			return View(blog);
+		}
+
+		public IActionResult Test(string search)
+		{
+			List<Blog1> blogs = Blog1.Read(search);
+			return View(blogs);
+		}
+
 		public IActionResult Privacy()
 		{
 			return View();
