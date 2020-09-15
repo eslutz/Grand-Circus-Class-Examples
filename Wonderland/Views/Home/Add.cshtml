@@ -9,7 +9,7 @@
 	<label name="title" title="Title" value="Title">Title:</label><br />
 	<input type="text" name="title" value="@Model?.Title"/><br />
 	<label name="paragraphs" title="Content" value="Content">Content:</label><br />
-	<textarea name="paragraphs" value="@Model?.Paragraphs"></textarea><br />
+	<textarea name="paragraphs">@Model?.Paragraphs</textarea><br />
 	<input type="hidden" name="id" value="@Model?.ID" />
 	<input type="submit" value="Save" />
 </form>

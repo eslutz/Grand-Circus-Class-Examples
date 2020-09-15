@@ -39,12 +39,22 @@ namespace Wonderland.Controllers
 		{
 			ViewBag.PageName = "Edit";
 			Blog1 blog = Blog1.Read(id);
-			return View(blog);
+			//ViewBag.id = blog.ID;
+			//ViewBag.title = blog.Title;
+			//ViewBag.paragraphs = blog.Paragraphs;
+			return View("Add", blog);
 		}
 
-		public IActionResult SaveNew(string title, string paragraphs)
+		public IActionResult SaveNew(long id, string title, string paragraphs)
 		{
-			Blog1.Create(title, paragraphs);
+			if (id >= 1)
+			{
+				Blog1.Update(id, title, paragraphs);
+			}
+			else
+			{
+				Blog1.Create(title, paragraphs);
+			}
 			ViewBag.Message = "Your entry has been saved!";
 			List<Blog1> blogs = Blog1.Read();
 			return View("Test", blogs);
