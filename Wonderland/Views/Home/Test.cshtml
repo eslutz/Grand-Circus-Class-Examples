@@ -3,6 +3,7 @@
     ViewData["Title"] = "Test";
 }
 
+<b style="color:chartreuse">@ViewBag.Message</b>
 <form method="get" action="/Home/Test">
 	<label name="search" value="Search">Search:</label>
 	<input type="text" name="search" />
@@ -14,6 +15,6 @@
 <ul>
 	@foreach (Blog1 blog in Model)
 	{
-		<li><a href="/Home/Blog?id=@blog.ID"><h2>@blog.Title</h2></a></li>
+		<li><a href="/Home/Blog?id=@blog.ID"><b>@blog.Title</b></a> <a href="/Home/Edit?id=@blog.ID">Edit</a></li>
 	}
 </ul>

@@ -17,9 +17,21 @@ namespace Wonderland.Models
 		public long ID { get; set; }
 		public string Paragraphs { get; set; }
 		public string Title { get; set; }
-	
-		//Create
 
+		public Blog1() { }
+		
+		public Blog1(string title, string para)
+		{
+			Title = title;
+			Paragraphs = para;
+		}
+		//Create
+		public static void Create(string _title, string _paragraphs)
+		{
+			Blog1 blog = new Blog1(_title, _paragraphs);
+			IDbConnection database = new SqlConnection("Server=BCKW433\\SQLEXPRESS;Database=devbuild1;user id=TestUser;password=password");
+			database.Insert(blog);
+		}
 
 		//Read
 		static public List<Blog1> Read()
@@ -36,7 +48,7 @@ namespace Wonderland.Models
 			return blog;
 		}
 
-		static public List<Blog1> Read(string search)
+		public static List<Blog1> Read(string search)
 		{
 			IDbConnection database = new SqlConnection("Server=BCKW433\\SQLEXPRESS;Database=devbuild1;user id=TestUser;password=password");
 			List<Blog1> blogs = database.Query<Blog1>($"select id, title from Blog1 where paragraphs like '%{search}%'").ToList();
@@ -44,7 +56,12 @@ namespace Wonderland.Models
 		}
 
 		//Update
-
+		public static void Update(long _id, string _title, string _paragraphs)
+		{
+			Blog1 blog = new Blog1() { ID = _id, Title = _title, Paragraphs = _paragraphs};
+			IDbConnection database = new SqlConnection("Server=BCKW433\\SQLEXPRESS;Database=devbuild1;user id=TestUser;password=password");
+			database.Update(blog);
+		}
 
 		//Delete
 		public static void Delete(long id)
