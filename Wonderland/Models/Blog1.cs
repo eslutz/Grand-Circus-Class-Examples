@@ -69,5 +69,12 @@ namespace Wonderland.Models
 			IDbConnection database = new SqlConnection("Server=BCKW433\\SQLEXPRESS;Database=devbuild1;user id=TestUser;password=password");
 			database.Delete(new Blog1() { ID = id });
 		}
+
+		public static long TestProc()
+		{
+			IDbConnection database = new SqlConnection("Server=BCKW433\\SQLEXPRESS;Database=devbuild1;user id=TestUser;password=password");
+			int result = database.QuerySingle<int>("AddBlog", new { paragraphs = "test", title = "test" }, commandType: CommandType.StoredProcedure);
+			return result;
+		}
 	}
 }

@@ -68,8 +68,9 @@ namespace Wonderland.Controllers
 
 		public IActionResult Test2()
 		{
-			Blog1.Update(4, "Part 42", "Whats the answer to the universe?");
-			return Content("OK");
+			//Blog1.Update(4, "Part 42", "Whats the answer to the universe?");
+			long result = Blog1.TestProc();
+			return Content(result.ToString());
 		}
 
 		public IActionResult Privacy()

@@ -59,7 +59,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperMVC", "DapperMVC\Dapp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetStore", "PetStore\PetStore.csproj", "{D836AE9F-9A11-46BA-B7BC-D5A2D07DE447}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wonderland", "Wonderland\Wonderland.csproj", "{CECD904B-F86A-4C94-AE9E-49E959637E8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wonderland", "Wonderland\Wonderland.csproj", "{CECD904B-F86A-4C94-AE9E-49E959637E8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperConsole2", "DapperConsole2\DapperConsole2.csproj", "{C0A69717-BE91-41FB-B705-CFAD56EFE5BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAPI", "TestAPI\TestAPI.csproj", "{9DFB8CBE-B194-4FC3-8B91-9D721A57CC6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +187,14 @@ Global
 		{CECD904B-F86A-4C94-AE9E-49E959637E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CECD904B-F86A-4C94-AE9E-49E959637E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CECD904B-F86A-4C94-AE9E-49E959637E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0A69717-BE91-41FB-B705-CFAD56EFE5BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A69717-BE91-41FB-B705-CFAD56EFE5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A69717-BE91-41FB-B705-CFAD56EFE5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A69717-BE91-41FB-B705-CFAD56EFE5BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DFB8CBE-B194-4FC3-8B91-9D721A57CC6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFB8CBE-B194-4FC3-8B91-9D721A57CC6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFB8CBE-B194-4FC3-8B91-9D721A57CC6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFB8CBE-B194-4FC3-8B91-9D721A57CC6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
