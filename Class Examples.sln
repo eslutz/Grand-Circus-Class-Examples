@@ -65,6 +65,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperConsole2", "DapperCon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAPI", "TestAPI\TestAPI.csproj", "{9DFB8CBE-B194-4FC3-8B91-9D721A57CC6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICallDemo", "APICallDemo\APICallDemo.csproj", "{34AFDBFE-F7C5-4CA0-95D2-09178A69601A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,10 @@ Global
 		{9DFB8CBE-B194-4FC3-8B91-9D721A57CC6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DFB8CBE-B194-4FC3-8B91-9D721A57CC6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DFB8CBE-B194-4FC3-8B91-9D721A57CC6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34AFDBFE-F7C5-4CA0-95D2-09178A69601A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34AFDBFE-F7C5-4CA0-95D2-09178A69601A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34AFDBFE-F7C5-4CA0-95D2-09178A69601A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34AFDBFE-F7C5-4CA0-95D2-09178A69601A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
