@@ -40,6 +40,22 @@ namespace APICallDemo.Controllers
 			return View(info);
 		}
 
+		public IActionResult Test1()
+		{
+			Response.ContentType = ("text/html");
+			return Content("<b>Hello</b>");
+		}
+
+		public IActionResult Test2()
+		{
+			return RedirectToAction("Test3");
+		}
+
+		public IActionResult Test3()
+		{
+			return Content("Hello test 3!");
+		}
+
 		public IActionResult Privacy()
 		{
 			return View();
