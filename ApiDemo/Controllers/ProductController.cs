@@ -66,5 +66,20 @@ namespace ApiDemo.Controllers
 			}
 			return result;
 		}
+
+		//product/emptylist
+		[HttpGet("EmptyList")]
+		public List<string> EmptyList()
+		{
+			List<string> result = new List<string>();
+			return result;
+		}
+
+		//product/emptylist
+		[HttpGet("EmptyObject")]
+		public Object EmptyObject()
+		{
+			return new { };
+		}
 	}
 }
