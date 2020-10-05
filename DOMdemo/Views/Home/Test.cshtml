@@ -1,0 +1,83 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Test</title>
+    <style>
+		.redbackground {
+			background-color: red;
+		}
+		.bluebackground {
+			background-color: blue;
+		}
+    </style>
+    <script>
+        //alert("Starting Up!");
+
+        function changeClass() {
+            let x = document.getElementById("block1");
+            x.className = 'bluebackground';
+        }
+
+        function doIt(fu) {
+            fu();
+        }
+
+        let obj = {
+            len: 10,
+            wid: 20,
+            name: "Rectangle",
+            area: function () {
+                return this.len * this.wid;
+			}
+        }
+
+        function submitForm() {
+            let first = document.getElementById("FirstName");
+            let last = document.getElementById("LastName");
+            first.value = first.value.toUpperCase();
+            last.value = last.value.toUpperCase();
+
+            if (first.value == "") {
+                let block1 = document.getElementById("block1");
+                block1.innerHTML = "You must enter a first name."
+                return false;
+            }
+            else {
+                return true;
+			}
+
+		}
+    </script>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <div id="block1" class="redbackground">
+        <h2>This is a block of <i>HTML</i></h2>
+    </div>
+    <div id="block2" class="bluebackground">
+        <h2>This is another block of <i>HTML</i></h2>
+    </div>
+    <div id="block3" class="redbackground">
+        <h2>This is yet another block of <i>HTML</i></h2>
+    </div>
+
+    <button onclick="alert('Hello')">Click Me</button>
+    <button onclick="changeClass()">CLICK ME!!!</button>
+
+    <hr />
+
+	<form method="get" action="/Home/Result" onsubmit="return submitForm()">
+		First Name: <input type="text" name="FirstName" id="FirstName" /><br />
+		Last Name: <input type="text" name="LastName" id="LastName" /><br />
+		<input type="submit" />
+	</form>
+
+</body>
+</html>
