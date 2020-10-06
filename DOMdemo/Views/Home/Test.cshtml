@@ -53,25 +53,58 @@
                 return true;
 			}
 
+			function trip(car) {
+				console.log("welcome to trip");
+				car.drive();
+				console.log("end of trip");
+			}
+
+			function testtrip() {
+				let honda = {
+					model: "civic",
+					color: "red",
+					drive: function () {
+						console.log("honda is driving");
+					}
+				}
+				trip(honda);
+
+				let schwin = {
+					model: "abc",
+					color: "black",
+					wheelsize: 30
+				}
+				trip(schwin);
+
+				let chevy = {
+					model: "trax",
+					color: "blue",
+					drive: function () {
+						console.log("chevy is driving");
+					},
+					trim: "lx"
+				}
+				trip(chevy);
+			}
 		}
     </script>
 </head>
 <body>
-    <h1>Hello World</h1>
-    <div id="block1" class="redbackground">
-        <h2>This is a block of <i>HTML</i></h2>
-    </div>
-    <div id="block2" class="bluebackground">
-        <h2>This is another block of <i>HTML</i></h2>
-    </div>
-    <div id="block3" class="redbackground">
-        <h2>This is yet another block of <i>HTML</i></h2>
-    </div>
+	<h1>Hello World</h1>
+	<div id="block1" class="redbackground">
+		<h2>This is a block of <i>HTML</i></h2>
+	</div>
+	<div id="block2" class="bluebackground">
+		<h2>This is another block of <i>HTML</i></h2>
+	</div>
+	<div id="block3" class="redbackground">
+		<h2>This is yet another block of <i>HTML</i></h2>
+	</div>
 
-    <button onclick="alert('Hello')">Click Me</button>
-    <button onclick="changeClass()">CLICK ME!!!</button>
+	<button onclick="alert('Hello')">Click Me</button>
+	<button onclick="changeClass()">CLICK ME!!!</button>
 
-    <hr />
+	<hr />
 
 	<form method="get" action="/Home/Result" onsubmit="return submitForm()">
 		First Name: <input type="text" name="FirstName" id="FirstName" /><br />
@@ -79,5 +112,8 @@
 		<input type="submit" />
 	</form>
 
+	<hr />
+
+    <button onclick="testtrip()">Test Trip</button>
 </body>
 </html>
