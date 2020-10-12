@@ -1,0 +1,9 @@
+<div style="border: 2px solid green;">
+    <h2>{{header}}</h2>
+    <h3>Welcome {{firstName}} {{lastName}}</h3>
+    First name: <input [(ngModel)]="firstName" type="text" /><br />
+    Last name: <input [(ngModel)]="lastName" type="text" /><br />
+    <input type="image" src="https://www.flaticon.com/svg/static/icons/svg/25/25452.svg" height="50px" (click)="clickResult();$event.target.blur()" />
+    &nbsp;
+    <button (click)="clickTest()">Test</button>
+</div>
