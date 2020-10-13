@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Person } from './interface/person';
 
 @Component({
   selector: 'app-root',
@@ -24,7 +25,7 @@ export class AppComponent {
     this.isHidden = !this.isHidden;
   }
 
-  updateName(str: string) {
-    this.newName = str;
+  updateName(p: Person) {
+    this.newName = `${p.firstName} ${p.lastName}`;
   }
 }

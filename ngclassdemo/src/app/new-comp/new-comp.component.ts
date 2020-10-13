@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Person } from '../interface/person';
 
 @Component({
   selector: 'app-new-comp',
@@ -7,7 +8,7 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 })
 export class NewCompComponent implements OnInit {
   @Input() header = "Greetings";
-  @Output() callParent = new EventEmitter<string>();
+  @Output() callParent = new EventEmitter<Person>();
   firstName = "Hi";
   lastName = "There";
   constructor() { }
@@ -17,7 +18,8 @@ export class NewCompComponent implements OnInit {
 
   clickResult() {
     //alert(`Welcome ${this.firstName} ${this.lastName}`);
-    this.callParent.emit(`${this.firstName} ${this.lastName}`);
+    let p: Person = {firstName: this.firstName, lastName: this.lastName}
+    this.callParent.emit(p);
   }
 
   clickTest() {
