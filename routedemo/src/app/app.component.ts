@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'routedemo';
+  myParams = { test: "abc123", orderNumber: "order1000" };
 }
