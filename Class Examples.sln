@@ -77,7 +77,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqDemo", "LinqDemo\LinqDe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DOMdemo", "DOMdemo\DOMdemo.csproj", "{CF383D34-24AC-4295-B9F5-1F8E788EF1A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeScriptDemo", "TypeScriptDemo\TypeScriptDemo.csproj", "{3A97F2C2-1345-4CF3-B550-BFCB14E19A03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeScriptDemo", "TypeScriptDemo\TypeScriptDemo.csproj", "{3A97F2C2-1345-4CF3-B550-BFCB14E19A03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrantsDinerAngularDemo", "GrantsDinerAngularDemo\GrantsDinerAngularDemo.csproj", "{6F040D33-0086-44E4-9D16-3834CF33D4A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +239,10 @@ Global
 		{3A97F2C2-1345-4CF3-B550-BFCB14E19A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A97F2C2-1345-4CF3-B550-BFCB14E19A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A97F2C2-1345-4CF3-B550-BFCB14E19A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F040D33-0086-44E4-9D16-3834CF33D4A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F040D33-0086-44E4-9D16-3834CF33D4A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F040D33-0086-44E4-9D16-3834CF33D4A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F040D33-0086-44E4-9D16-3834CF33D4A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

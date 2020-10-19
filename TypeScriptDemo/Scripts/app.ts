@@ -37,4 +37,15 @@ function testtrip() {
 	trip(honda);
 	trip(chevy);
 	//trip(schwin);
+
+	let carshop: Car[] = [
+		honda, chevy
+	];
+
+	carshop.push(chevy);
+	//carshop.push(schwin);
+
+	for (let car of carshop) {
+		console.log(car.model);
+	}
 }

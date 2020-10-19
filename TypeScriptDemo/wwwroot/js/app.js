@@ -27,5 +27,14 @@ function testtrip() {
     trip(honda);
     trip(chevy);
     //trip(schwin);
+    var carshop = [
+        honda, chevy
+    ];
+    carshop.push(chevy);
+    //carshop.push(schwin);
+    for (var _i = 0, carshop_1 = carshop; _i < carshop_1.length; _i++) {
+        var car = carshop_1[_i];
+        console.log(car.model);
+    }
 }
 //# sourceMappingURL=app.js.map
