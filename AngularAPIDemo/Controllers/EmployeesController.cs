@@ -18,5 +18,12 @@ namespace AngularAPIDemo.Controllers
 		{
 			return Employee.Emps;
 		}
+
+		//URL path: /api/Employees/1
+		[HttpGet("{id}")]
+		public Employee GetSingle(long id)
+		{
+			return Employee.findByID(id);
+		}
 	}
 }
