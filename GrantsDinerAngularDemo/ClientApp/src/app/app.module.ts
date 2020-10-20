@@ -6,29 +6,32 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
-import { HomeComponent } from './home/home.component';
-import { CounterComponent } from './counter/counter.component';
-import { FetchDataComponent } from './fetch-data/fetch-data.component';
+import { MenuComponent } from './menu/menu.component';
+import { MenuCategoryComponent } from './menu-category/menu-category.component';
+import { CartComponent } from './cart/cart.component';
+import { CartItemComponent } from './cart-item/cart-item.component';
+import { MenuDataService } from './menu-data';
+import { CartDataService } from './cart-data.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavMenuComponent,
-    HomeComponent,
-    CounterComponent,
-    FetchDataComponent
+    MenuComponent,
+    MenuCategoryComponent,
+    CartComponent,
+    CartItemComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
     FormsModule,
     RouterModule.forRoot([
-      { path: '', component: HomeComponent, pathMatch: 'full' },
-      { path: 'counter', component: CounterComponent },
-      { path: 'fetch-data', component: FetchDataComponent },
+      { path: 'cart', component: CartComponent },
+      { path: '', component: MenuComponent},
     ])
   ],
-  providers: [],
+  providers: [MenuDataService, CartDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

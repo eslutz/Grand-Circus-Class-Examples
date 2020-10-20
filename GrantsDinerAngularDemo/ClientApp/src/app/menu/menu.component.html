@@ -1,0 +1,17 @@
+<h2>Menu</h2>
+
+<p>
+  <ng-container *ngFor="let cat of categories; index as i">
+    <button class="btn btn-primary" type="button" (click)="showMenuSection(i)">{{cat}}</button>
+  </ng-container>
+</p>
+<div class="row">
+  <ng-container *ngFor="let cat of categories; index as i">
+    <div class="col" [hidden]="menuSection[i]" id="menuCollapse{{i}}">
+      <div class="card card-body">
+        <h3>{{cat}}</h3>
+        <app-menu-category [category]="cat"></app-menu-category>
+      </div>
+    </div>
+  </ng-container>
+</div>

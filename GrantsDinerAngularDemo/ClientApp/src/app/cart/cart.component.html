@@ -1,0 +1,13 @@
+<h2>Bag</h2>
+<div class="cart-item" *ngFor="let item of cartItems">
+  <app-cart-item [item]="item" (deleteEmitter)="delete($event)"
+      (updateEmitter)="update($event)"></app-cart-item>
+</div>
+
+<div *ngIf="cartItems?.length===0">
+  Your cart is empty
+</div>
+
+<h3>
+  Total: {{total | currency}}
+</h3>
