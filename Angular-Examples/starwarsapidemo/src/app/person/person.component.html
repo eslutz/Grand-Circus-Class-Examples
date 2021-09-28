@@ -1,0 +1,9 @@
+{{currentPerson.name}} of <app-planet [url]="currentPerson.homeworld"></app-planet>
+<div>
+    Appears in:
+    <ul>
+        <li *ngFor="let f of currentPerson.films">
+            <app-film [url]="f"></app-film>
+        </li>
+    </ul>
+</div>

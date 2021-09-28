@@ -1,0 +1,10 @@
+<!--<h1 class="green italic">Hello World</h1>-->
+
+<h1 [ngClass]="{'green':isGreen, 'italic':isItalic, 'hidden':isHidden}">Hello World {{newName}}</h1>
+<button (click)="doClick()">CLICK ME</button>
+<br />
+<button (click)="doHide()">HIDE ME</button>
+
+<h1 [ngStyle]="{'color':theColor}">Another Header</h1>
+<app-new-comp (callParent)="updateName($event)" header="Say what?"></app-new-comp>
+<app-new-comp header="Say hello"></app-new-comp>
